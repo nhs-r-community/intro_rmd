@@ -80,46 +80,27 @@
 </h1></div>
 <!-- badges: start -->
 <!-- badges: end -->
-<div id="set-up" class="section level2">
+<div id="introduction-to-rmarkdown" class="section level2">
 <h2 class="hasAnchor">
-<a href="#set-up" class="anchor"></a>Set-up</h2>
-<p>This is a template repository for NHS-R packages. It set’s up a number of things ready to start developing R-packages.</p>
-<p>After creating a new repository from this template make sure to update:</p>
+<a href="#introduction-to-rmarkdown" class="anchor"></a>Introduction to RMarkdown</h2>
+<p>This is a repository for the <strong>Introduction to RMarkdown</strong> workshop that was delivered in November of 2021 by Hansel Palencia at the NHS-R Conference.</p>
+</div>
+<div id="description" class="section level2">
+<h2 class="hasAnchor">
+<a href="#description" class="anchor"></a>Description</h2>
+<p>Although there is currently introduction training for R, there is a gap in the pathway from analyst to endpoint. The current introduction to R framework finishes with a brief overview of Rmarkdown. The purpose of this proposal is to develop a complete Rmarkdown workshop that would teach R users ho to organise their code/visualisations into a fully functional reporting suite.</p>
+<p>This workshop teaches the following principles:</p>
 <ul>
-<li>Update the title and installation section in Readme.Rmd</li>
-<li>Remove the Set-up section in Readme.Rmd</li>
-<li>Update the DESCRIPTION file as relevant</li>
-<li>Update the <a href="https://github.com/nhs-r-community/universe">universe</a> repository, so your package is included in <a href="https://nhs-r-community.r-universe.dev/ui#builds">nhs-r-community.r-universe.dev</a>
-</li>
+<li>Introduction to Rmarkdown, how to create and edit documents and code chunks, as well as, an introduction to purpose (reproducible analysis)</li>
+<li>Practice exmples of how to create and run report with new data.</li>
+<li>Manipulation options relative to code chunks, YAML, inline code, etc.</li>
+<li>Describing different outputs - PDF, HTML, Word, Powerpoint</li>
+<li>Looping through vectors to generate multiple RMarkdown reports</li>
+<li>Parameterising RMarkdown to develop specific reports</li>
+<li>Demo of advanced functionality available in HTML {plotly}, {crosstalk}, {DT}, {leaflet}</li>
 </ul>
-<div id="actions" class="section level3">
-<h3 class="hasAnchor">
-<a href="#actions" class="anchor"></a>Actions</h3>
-<p>This template set’s up the following actions on all PR’s and pushes to the main branch:</p>
-<ul>
-<li>
-<a href="https://r-pkgs.org/r-cmd-check.html">R-CMD check</a> to check your package is valid, passes tests etc.</li>
-<li>
-<a href="https://github.com/jimhester/lintr"><code>{lintr}</code></a> to run static code analysis, will annotate your commits with any issues discovered.</li>
-<li>
-<a href="https://github.com/r-lib/covr"><code>{covr}</code></a> to run code coverage and upload to <a href="https://codecov.io/">codecov.io</a>.</li>
-<li>
-<a href="https://github.com/r-lib/pkgdown"><code>{pkgdown}</code></a> to deploy package documentation to GitHub pages.</li>
-</ul>
-<p>These actions will ensure that your package is building correctly, passing tests, and will help you stick to the <a href="https://style.tidyverse.org/">tidyverse style guide</a>.</p>
-</div>
-</div>
-<div id="installation" class="section level2">
-<h2 class="hasAnchor">
-<a href="#installation" class="anchor"></a>Installation</h2>
-<p>You can install the released version of template from <a href="https://github.com/">GitHub</a> with:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">install.packages</span>(<span class="st">"remotes"</span>)</span>
-<span id="cb1-2"><a href="#cb1-2"></a>remotes<span class="op">::</span><span class="kw">install_github</span>(<span class="st">"nhs-r-community/[YOUR_REPOSITORY])</span></span></code></pre></div>
-</div>
-<div id="development" class="section level2">
-<h2 class="hasAnchor">
-<a href="#development" class="anchor"></a>Development</h2>
-<p>As this is using a Readme.Rmd file to generate the Readme.md file you should enable the git hooks to prevent occidentally checking in Readme.Rmd without updating Readme.md. Make sure to run <code>usethis::use_readme_rmd()</code> after you checkout this repository.</p>
+<p>A successful completion of this workshop should give a NHS analyst confidence in the ability to at least create, generate, and then populate an Rmd file into an HTML file with the purpose of reporting.</p>
+<p>In the future a further developed advanced workshop could be useful to advance education in this area.</p>
 </div>
 </div>
   </div>
