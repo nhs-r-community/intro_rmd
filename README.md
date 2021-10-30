@@ -6,51 +6,27 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-## Set-up
+## Introduction to RMarkdown
 
-This is a template repository for NHS-R packages. It set’s up a number
-of things ready to start developing R-packages.
+This is a repository for the **Introduction to RMarkdown** workshop that was delivered in November of 2021 by Hansel Palencia at the NHS-R Conference.
 
-After creating a new repository from this template make sure to update:
 
--   Update the title and installation section in Readme.Rmd
--   Remove the Set-up section in Readme.Rmd
--   Update the DESCRIPTION file as relevant
--   Update the [universe](https://github.com/nhs-r-community/universe)
-    repository, so your package is included in
-    [nhs-r-community.r-universe.dev](https://nhs-r-community.r-universe.dev/ui#builds)
+## Description
 
-### Actions
+Although there is currently introduction training for R, there is a gap in the pathway from analyst to endpoint. The current introduction to R framework finishes with a brief overview of Rmarkdown. The purpose of this proposal is to develop a complete Rmarkdown workshop that would teach R users ho to organise their code/visualisations into a fully functional reporting suite.
 
-This template set’s up the following actions on all PR’s and pushes to
-the main branch:
+This workshop teaches the following principles:
 
--   [R-CMD check](https://r-pkgs.org/r-cmd-check.html) to check your
-    package is valid, passes tests etc.
--   [`{lintr}`](https://github.com/jimhester/lintr) to run static code
-    analysis, will annotate your commits with any issues discovered.
--   [`{covr}`](https://github.com/r-lib/covr) to run code coverage and
-    upload to [codecov.io](https://codecov.io/).
--   [`{pkgdown}`](https://github.com/r-lib/pkgdown) to deploy package
-    documentation to GitHub pages.
+* Introduction to Rmarkdown, how to create and edit documents and code chunks, as well as, an introduction to purpose (reproducible analysis)
+* Practice exmples of how to create and run report with new data.
+* Manipulation options relative to code chunks, YAML, inline code, etc.
+* Describing different outputs - PDF, HTML, Word, Powerpoint
+* Looping through vectors to generate multiple RMarkdown reports
+* Parameterising RMarkdown to develop specific reports
+* Demo of advanced functionality available in HTML {plotly}, {crosstalk}, {DT}, {leaflet}
 
-These actions will ensure that your package is building correctly,
-passing tests, and will help you stick to the [tidyverse style
-guide](https://style.tidyverse.org/).
 
-## Installation
+A successful completion of this workshop should give a NHS analyst confidence in the ability to at least create, generate, and then populate an Rmd file into an HTML file with the purpose of reporting.
 
-You can install the released version of template from
-[GitHub](https://github.com/) with:
+In the future a further developed advanced workshop could be useful to advance education in this area.
 
-``` r
-install.packages("remotes")
-remotes::install_github("nhs-r-community/[YOUR_REPOSITORY])
-```
-
-## Development
-
-As this is using a Readme.Rmd file to generate the Readme.md file you
-should enable the git hooks to prevent occidentally checking in
-Readme.Rmd without updating Readme.md. Make sure to run
-`usethis::use_readme_rmd()` after you checkout this repository.
