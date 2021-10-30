@@ -1,0 +1,19 @@
+Package: template
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.0.0.9000
+Authors@R: c(
+          person(given = "Your", family = "Name", email = "your_email@nhs.net", role = c("cre", "aut")),
+          person(given = "Other", family = "Contributor", email = "other.contributor@nhs.net", role = "aut"),
+          person(given = "NHS-R community", email = "nhs.rcommunity@nhs.net", role = "cph")
+          )
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/nhs-r-community/template
+BugReports: https://github.com/nhs-r-community/template/issues
