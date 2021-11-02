@@ -1,0 +1,49 @@
+---
+title: "Data Import and Wrangle"
+author: "Hansel Palencia - Senior Information Analyst"
+date: "02/11/2021"
+output: html_document
+---
+
+
+```{r setup, include=FALSE, echo=FALSE, message=FALSE}
+knitr::opts_knit$set(root.dir = "../")
+if (!require("pacman")) install.packages("pacman"); library(pacman)
+
+p_load(tidyverse, lubridate, readxl)
+
+
+```
+
+
+# Headers
+
+## Tabs {.tabset}
+
+## **Bolds** and *Italics*
+
+## Lists
+
+## Import Pictures
+
+## Hyperlink  
+
+## LaTeX
+  
+## Plots
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
