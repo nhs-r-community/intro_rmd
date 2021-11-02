@@ -20,7 +20,7 @@ p_load(tidyverse, lubridate, readxl)
 
 ## Tabs {.tabset}
 
-## **Bolds** and *Italics*
+## Bolds and Italics
 
 ## Lists
 

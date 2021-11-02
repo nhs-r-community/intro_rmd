@@ -1,0 +1,45 @@
+---
+title: 'Parameterised Reporting'
+output: html_document
+params:
+  month: 
+    label: "Month"
+    value: January
+    input: select
+    choices: [January, February, March, April]
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_knit$set(root.dir = "../")
+if (!require("pacman")) install.packages("pacman"); library(pacman)
+
+p_load(tidyverse, lubridate, readxl)
+
+
+```
+
+
+### My Time of Access Viz
+
+
+```{r, fig.width = 10}
+
+dat <- read_xlsx("data/TOA_Data.xlsx")
+
+dat <- dat %>% 
+  filter(Month == params$month)
+
+dat %>% 
+  group_by(Month, Hour_Start) %>% 
+  summarise(count = sum(count, na.rm = T)) %>% 
+  ggplot() +
+  geom_point(aes(x = as.numeric(Hour_Start), y = count, color = Month)) +
+  geom_line(aes(x = as.numeric(Hour_Start), y = count, color = Month, group = Month)) +
+  scale_x_continuous(breaks = seq(0,23,1)) +
+  theme_classic()
+
+
+```
+
+

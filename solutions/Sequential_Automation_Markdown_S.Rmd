@@ -1,0 +1,21 @@
+---
+title: 'Sequential Automation'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+
+```
+
+
+### My Time of Access Viz
+
+
+```{r, fig.width = 10}
+
+my_graph
+
+```
+
+
