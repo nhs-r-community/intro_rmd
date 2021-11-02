@@ -1,0 +1,124 @@
+---
+title: "Data Import and Wrangle"
+author: "Hansel Palencia - Senior Information Analyst"
+date: "02/11/2021"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+params:
+  month: October
+---
+
+
+```{r setup, include=FALSE, echo=FALSE, message=FALSE}
+if (!require("pacman")) install.packages("pacman"); library(pacman)
+
+p_load(tidyverse, lubridate, readxl)
+
+tele <- read_excel("Times of Access Jan - April 2021.xlsx", sheet = "Times of Access 24hr")
+
+```
+
+
+# Headers
+
+## Test
+
+### Test 2
+
+#### Test 3
+
+##### Test 4
+
+
+## Plots {.tabset}
+
+
+### Plot 1
+
+
+```{r, echo = F, warning = F, message = F}
+
+tele <- tele %>% 
+  pivot_longer(!Telecoach, names_to = "date", values_to = "count")
+  
+tele %>% 
+  filter(!date %in% c("Total", "Mar-21", "Apr-21", "Jan-21", "Feb-21")) %>% 
+  mutate(date = as.Date(as.numeric(as.character(date)), origin = '1899-12-30')) %>% 
+  separate(Telecoach, into = c("Start"), sep = "-") %>% 
+  separate(Start, into = "Hour_Start", sep = ":") %>% 
+  group_by(Hour_Start) %>% 
+  summarise(hourly = sum(count, na.rm = T)) %>% 
+  ggplot() +
+  geom_histogram(aes(x = as.numeric(Hour_Start), y = hourly), stat = "identity", alpha = .5, color = "black") +
+  geom_point(aes(x = as.numeric(Hour_Start), y = hourly)) +
+  stat_smooth(aes(x= as.numeric(Hour_Start), y = hourly)) +
+  theme(axis.text.x.bottom = element_text(angle = 90)) +
+  scale_x_continuous(breaks = seq(0,23,1)) +
+  theme_classic() +
+  labs(x = "Hour Start of Call", y = "Frequency", title = "Distribution of TOA for 24Hr Line")
+
+
+```
+
+
+
+
+### **Bolds** and *Italics*
+
+
+Two asteriks will result in bold text **SEE HERE**
+
+One asterik will result in italic text *SEE HERE*
+
+
+## Lists
+
+* This is my first thing
+* This is my second thing
+* This is my third thing
+
+
+1. Do this first
+2. Do this second
+3. Do this third
+
+
+
+## Import Pictures
+
+![](C:/Projects/Governance_Run/Workshop_Images/nhs_r_pic.jpg)
+  
+
+## Hyperlink  
+
+[My LinkedIn][https://www.linkedin.com/in/hanselpalencia/]
+
+
+
+## LaTeX
+
+$$
+\alpha + \beta = \gamma
+$$
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
