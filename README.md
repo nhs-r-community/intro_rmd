@@ -30,3 +30,5 @@ A successful completion of this workshop should give a NHS analyst confidence in
 
 In the future a further developed advanced workshop could be useful to advance education in this area.
 
+A recording of the workshop is available from the [NHS-R Community YouTube channel](https://www.youtube.com/watch?v=RaM6fgwMZIs)
+
