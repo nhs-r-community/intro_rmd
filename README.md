@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# NHS-R Conference 2021 [<img alt="NHS-R Community Logo" src="man/figures/logo.png" align="right" />](https://nhsrcommunity.com/)
+# NHS-R Conference 2021 <a alt="NHS-R Community's logo" href='https://nhsrcommunity.com/'><img src='https://nhs-r-community.github.io/assets/logo/nhsr-logo.svg' align="right" height="80" /></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
