@@ -13,7 +13,7 @@ This is a repository for the **Introduction to RMarkdown** workshop that was del
 
 ## Description
 
-Although there is currently introduction training for R, there is a gap in the pathway from analyst to endpoint. The current introduction to R framework finishes with a brief overview of Rmarkdown. The purpose of this proposal is to develop a complete Rmarkdown workshop that would teach R users ho to organise their code/visualisations into a fully functional reporting suite.
+Although there is currently introduction training for R, there is a gap in the pathway from analyst to endpoint. The current introduction to R framework finishes with a brief overview of Rmarkdown. The purpose of this proposal is to develop a complete Rmarkdown workshop that would teach R users how to organise their code/visualisations into a fully functional reporting suite.
 
 This workshop teaches the following principles:
 
@@ -30,5 +30,5 @@ A successful completion of this workshop should give a NHS analyst confidence in
 
 In the future a further developed advanced workshop could be useful to advance education in this area.
 
-A recording of the workshop is available from the [NHS-R Community YouTube channel](https://www.youtube.com/watch?v=RaM6fgwMZIs)
+A recording of the workshop is available from the [NHS-R Community YouTube channel](https://www.youtube.com/watch?v=RaM6fgwMZIs).
 
