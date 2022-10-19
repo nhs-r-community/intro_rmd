@@ -13,6 +13,18 @@ output:
       countIncrementalSlides: false
       ratio: "16:9"
 ---
+class: inverse, middle
+background-image: url(imgs/bg1.png)
+
+# Intro to rmarkdown
+
+---
+class: inverse
+background-image: url(imgs/bg2.png)
+
+# Title
+
+---
 class: inverse
 
 # WORKSHOP PLAN
