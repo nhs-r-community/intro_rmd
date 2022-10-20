@@ -7,28 +7,31 @@ date: "`r format(Sys.Date(),'%d-%b-%Y')`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
+    css: [default, ki-fonts, style.css]
+    seal: false # don't create automatic title slide
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
 ---
-class: inverse, middle
+class: inverse
 background-image: url(imgs/bg1.png)
 background-size: contain
 
+<style type="text/css">
+.remark-slide-content {
+    font-size: 30px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+
+<br><br><br><br><br><br><br>
 # Intro to rmarkdown
 
----
-class: inverse, middle
-background-image: url(imgs/bg1.png)
-background-size: contain
+<br><br>
 
-# Intro to rmarkdown
-
-.bottom[
 NHS-R Conference 2021
-]
 
 ---
 class: inverse
@@ -42,7 +45,7 @@ class: inverse, center
 
 # WORKSHOP PLAN
 
-<br><br>
+<br>
 
 ```{r, label="work_plan", echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics('imgs/workshop_plan.svg')
@@ -54,34 +57,35 @@ This is a presenter note
 
 ---
 class: inverse
+background-image: url(imgs/bg2.png)
+background-size: contain
 
 # Expectations
 
+<br><br><br>
+
 - What is your current experience in R?
-
 - What is your current experience with Rmarkdown?
-
 - What do you want to take away from this workshop?
-
 - What tools do you use for your reporting?
-
 
 ---
 class: inverse
+background-image: url(imgs/bg2.png)
+background-size: contain
 
 # What is rmarkdown?
 
+<br>
+
 .pull-left[
-
 - Rmarkdown (and other packages) facilitate the development and production of highly versatile reports.
-
 - In simplest its simplest use rmarkdown can be seen as a type of code notebook where an analyst can create reproducible and accurate historical records.
-
 ]
 
 .pull-right[
 
-```{r, label="logo", echo=FALSE, out.width="80%", fig.align="center"}
+```{r, label="logo", echo=FALSE, out.width="70%", fig.align="center"}
 knitr::include_graphics('imgs/rmarkdown_hex.png')
 ```
 
@@ -94,11 +98,14 @@ https://rmarkdown.rstudio.com/docs/reference/figures/logo.png
 
 ---
 class: inverse
+background-image: url(imgs/bg2.png)
+background-size: contain
 
 # Why Is This Useful?
 
-- The beauty of rmarkdown comes from the ability for an analyst to organise their code into an easy to read and reproducible report.
+<br><br><br>
 
+- The beauty of rmarkdown comes from the ability for an analyst to organise their code into an easy to read and reproducible report.
 - In our data world creating reproducible analyses is essential for continuity and accuracy.
 
 ---
@@ -132,11 +139,8 @@ class: inverse
 # Creating a Report
 
 - Creating an rmarkdown (.rmd) file is easy!
-
   - Click the Paper with the green plus in the top left corner
-
   - Generate the type of file you want and click OK
-
   - DONE!
 
 ???
@@ -149,13 +153,9 @@ class: inverse
 # How does it work?
 
 - rmarkdown uses markdown language to generate its reports. It also supports a variety of other languages for data generation, manipulation, and visualisation.
-
 - rmarkdown essentially works in three main parts which we’ll look at shortly:
-  
   - YAML – Creates and formats the specific type of report.
-  
   - Markdown Area – Where text formatting and report outlines will go as well as some additional formatting.
-  
   - Code area – “Chunks” where code goes that will run when the report is run.
 
 ---
@@ -166,7 +166,6 @@ class: inverse
 .pull-left[
 
 - The YAML is used to format the report as well as specify what type of output will be created.
-
   - Options include HTML, PDF, Word, Powerpoint, and more...
 
 ]
@@ -189,7 +188,6 @@ class: inverse
 # Markdown Area
 
 - The Markdown Area is used to format within the report itself.
-
   - Examples include: Headers, Tabs, Bolds, Italics, Lists, Numbered Lists, and more...
 
 
@@ -203,7 +201,6 @@ class: inverse
 # Code Area
 
 - The Coding Area is used as a space to develop code for the rmarkdown report.
-
 - The majority of times the final output of these code chunks will be some type of visualization (graph, table, etc.)
 
 ???
@@ -223,7 +220,6 @@ class: inverse
 # Parameterized rmarkdown
 
 - Parameterized reports allow you to create multiple reports with different inputs (like working with functions)
-
   - The input parameter will take the location of every named parameter space
 
 
@@ -251,11 +247,8 @@ class: inverse
 # Acknowledgements
 
 - NHS-R Community
-
 - Chris Beeley
-
 - Zoe Turner
-
 - Mohammed Mohammed
 
 ---
