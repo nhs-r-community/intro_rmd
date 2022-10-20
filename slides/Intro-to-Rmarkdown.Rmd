@@ -15,17 +15,30 @@ output:
 ---
 class: inverse, middle
 background-image: url(imgs/bg1.png)
+background-size: contain
 
 # Intro to rmarkdown
 
 ---
+class: inverse, middle
+background-image: url(imgs/bg1.png)
+background-size: contain
+
+# Intro to rmarkdown
+
+.bottom[
+NHS-R Conference 2021
+]
+
+---
 class: inverse
 background-image: url(imgs/bg2.png)
+background-size: contain
 
 # Title
 
 ---
-class: inverse
+class: inverse, center
 
 # WORKSHOP PLAN
 
