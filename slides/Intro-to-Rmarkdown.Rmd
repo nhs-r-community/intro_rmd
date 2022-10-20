@@ -42,6 +42,12 @@ class: inverse, center
 
 # WORKSHOP PLAN
 
+<br><br>
+
+```{r, label="work_plan", echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics('imgs/workshop_plan.svg')
+```
+
 ???
 
 This is a presenter note

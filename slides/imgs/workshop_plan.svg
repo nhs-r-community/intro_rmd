@@ -3,8 +3,8 @@
 
 <svg
    width="252.13898mm"
-   height="74.944664mm"
-   viewBox="0 0 252.13898 74.944663"
+   height="81.398994mm"
+   viewBox="0 0 252.13898 81.398993"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.7341354"
-     inkscape:cx="615.69023"
-     inkscape:cy="175.7169"
+     inkscape:zoom="0.99007971"
+     inkscape:cx="443.39864"
+     inkscape:cy="145.44284"
      inkscape:window-width="1366"
      inkscape:window-height="699"
      inkscape:window-x="0"
@@ -163,7 +163,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15898">Expectations</tspan></text>
+         id="tspan15980">Expectations</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,1.073144,23.797435)"
@@ -171,7 +171,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-3);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15900">Background</tspan></text>
+         id="tspan15982">Background</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,59.45387,23.50286)"
@@ -179,31 +179,31 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-7);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15902">Uses</tspan></text>
+         id="tspan15984">Uses</tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,79.407617,46.04664)"
+       transform="matrix(0.26458333,0,0,0.26458333,79.407617,49.527994)"
        id="text129-5-1"
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-7-9);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15904">YAML</tspan></text>
+         id="tspan15986">YAML</tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,104.80992,46.151414)"
+       transform="matrix(0.26458333,0,0,0.26458333,104.80992,49.632768)"
        id="text129-5-7"
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-7-2);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15906">Markdown</tspan></text>
+         id="tspan15988">Markdown</tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,146.92339,46.151414)"
+       transform="matrix(0.26458333,0,0,0.26458333,146.92339,49.632768)"
        id="text129-5-9"
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-7-0);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15908">Code</tspan></text>
+         id="tspan15990">Code</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,101.17451,23.808959)"
@@ -211,7 +211,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-35);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15910">Functionality</tspan></text>
+         id="tspan15992">Functionality</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,148.49214,11.014734)"
@@ -219,7 +219,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-35-3);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15912">LUNCH BREAK</tspan></text>
+         id="tspan15994">LUNCH BREAK</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,191.73462,23.810191)"
@@ -227,23 +227,23 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-35-0);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15914">Parameterization</tspan></text>
+         id="tspan15996">Parameterization</tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,181.63494,46.183456)"
+       transform="matrix(0.26458333,0,0,0.26458333,181.63494,49.137649)"
        id="text129-62-1"
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-35-6);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15916">rmarkdown Automation</tspan></text>
+         id="tspan15998">rmarkdown Automation</tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,188.37547,68.740711)"
+       transform="matrix(0.26458333,0,0,0.26458333,188.37547,75.195048)"
        id="text129-62-7"
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-35-8);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15918">Functionality Demo</tspan></text>
+         id="tspan16000">Functionality Demo</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:6.35px;fill:#000000;stroke-width:0.264583"
@@ -266,7 +266,7 @@
     <path
        id="rect843-0-5-2-2"
        style="fill:#00c6bb;fill-opacity:1;stroke:#009088;stroke-width:0.372719;stroke-dasharray:none;stroke-opacity:1"
-       d="m 99.648529,31.72059 -5.103851,-5.103851 v 2.561017 h -6.880896 v 5.085434 h 6.880896 v 2.561016 z" />
+       d="m 97.493952,31.72059 -5.103851,-5.103851 v 2.561017 h -6.880896 v 5.085434 h 6.880896 v 2.561016 z" />
     <path
        id="rect843-0-5-2-2-3"
        style="fill:#00c6bb;fill-opacity:1;stroke:#009088;stroke-width:0.372719;stroke-dasharray:none;stroke-opacity:1"
@@ -275,22 +275,22 @@
     <path
        id="rect843-0-5-2-2-8"
        style="fill:#00c6bb;fill-opacity:1;stroke:#009088;stroke-width:0.372719;stroke-dasharray:none;stroke-opacity:1"
-       d="m 126.6093,48.723357 5.10385,-5.10386 h -2.56102 v -6.88089 h -5.08543 v 6.88089 h -2.56102 z" />
+       d="m 126.6093,50.263086 5.10385,-5.10386 h -2.56102 v -6.88089 h -5.08543 v 6.88089 h -2.56102 z" />
     <path
        id="rect843-0-5-2-2-8-6"
        style="fill:#00c6bb;fill-opacity:1;stroke:#009088;stroke-width:0.372719;stroke-dasharray:none;stroke-opacity:1"
-       d="m 223.46225,48.144057 5.10385,-5.10386 h -2.56102 v -6.88089 h -5.08543 v 6.88089 h -2.56102 z" />
+       d="m 223.46225,51.026222 5.10385,-5.10386 h -2.56102 v -6.88089 h -5.08543 v 6.88089 h -2.56102 z" />
     <path
        id="rect843-0-5-2-2-8-1"
        style="fill:#00c6bb;fill-opacity:1;stroke:#009088;stroke-width:0.372719;stroke-dasharray:none;stroke-opacity:1"
-       d="m 223.46225,71.006057 5.10385,-5.10386 h -2.56102 v -6.88089 h -5.08543 v 6.88089 h -2.56102 z" />
+       d="m 223.46225,75.965551 5.10385,-5.10386 h -2.56102 v -6.88089 h -5.08543 v 6.88089 h -2.56102 z" />
     <path
        id="rect843-0-5-2-2-8-9"
        style="fill:#00c6bb;fill-opacity:1;stroke:#009088;stroke-width:0.372719;stroke-dasharray:none;stroke-opacity:1"
-       d="m 153.28291,46.698061 -10e-6,-7.217941 -1.81091,1.810915 -4.86552,-4.865524 -3.59595,3.595942 4.86553,4.865524 -1.81092,1.810915 z" />
+       d="m 153.28291,48.23779 -10e-6,-7.217941 -1.81091,1.810915 -4.86552,-4.865524 -3.59595,3.595942 4.86553,4.865524 -1.81092,1.810915 z" />
     <path
        id="rect843-0-5-2-2-8-9-7"
        style="fill:#00c6bb;fill-opacity:1;stroke:#009088;stroke-width:0.372719;stroke-dasharray:none;stroke-opacity:1"
-       d="m 100.12902,46.80138 7.21794,-1e-5 -1.81091,-1.81091 4.86552,-4.86552 -3.59594,-3.595948 -4.86553,4.865528 -1.81091,-1.81092 z" />
+       d="m 100.12902,48.341109 7.21794,-1e-5 -1.81091,-1.81091 4.86552,-4.86552 -3.59594,-3.595948 -4.86553,4.865528 -1.81091,-1.81092 z" />
   </g>
 </svg>
