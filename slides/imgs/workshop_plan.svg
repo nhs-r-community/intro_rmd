@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="252.13898mm"
+   width="255.95534mm"
    height="81.398994mm"
-   viewBox="0 0 252.13898 81.398993"
+   viewBox="0 0 255.95534 81.398993"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.99007971"
-     inkscape:cx="443.39864"
-     inkscape:cy="145.44284"
+     inkscape:cx="430.26839"
+     inkscape:cy="166.65325"
      inkscape:window-width="1366"
      inkscape:window-height="699"
      inkscape:window-x="0"
@@ -163,7 +163,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15980">Expectations</tspan></text>
+         id="tspan458">Expectations</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,1.073144,23.797435)"
@@ -171,7 +171,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-3);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15982">Background</tspan></text>
+         id="tspan461">Background</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,59.45387,23.50286)"
@@ -179,7 +179,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-7);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15984">Uses</tspan></text>
+         id="tspan463">Uses</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,79.407617,49.527994)"
@@ -187,7 +187,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-7-9);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15986">YAML</tspan></text>
+         id="tspan465">YAML</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,104.80992,49.632768)"
@@ -195,7 +195,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-7-2);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15988">Markdown</tspan></text>
+         id="tspan467">Markdown</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,146.92339,49.632768)"
@@ -203,7 +203,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-7-0);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15990">Code</tspan></text>
+         id="tspan469">Code</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,101.17451,23.808959)"
@@ -211,7 +211,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-35);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15992">Functionality</tspan></text>
+         id="tspan471">Functionality</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,148.49214,11.014734)"
@@ -219,7 +219,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-35-3);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15994">LUNCH BREAK</tspan></text>
+         id="tspan473">LUNCH BREAK</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,191.73462,23.810191)"
@@ -227,7 +227,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-35-0);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15996">Parameterization</tspan></text>
+         id="tspan475">Parameterization</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,181.63494,49.137649)"
@@ -235,7 +235,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-35-6);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan15998">rmarkdown Automation</tspan></text>
+         id="tspan477">rmarkdown Automation   </tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,188.37547,75.195048)"
@@ -243,7 +243,7 @@
        style="font-size:24px;white-space:pre;shape-inside:url(#rect131-35-8);display:inline;fill:#ffffff;fill-opacity:1"><tspan
          x="22.667969"
          y="37.00302"
-         id="tspan16000">Functionality Demo</tspan></text>
+         id="tspan479">Functionality Demo</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:6.35px;fill:#000000;stroke-width:0.264583"

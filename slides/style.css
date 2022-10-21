@@ -11,3 +11,12 @@ ul li::before {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
   margin-top: 0.5em;
 }
+
+.remark-slide-content {
+    font-size: 26px;
+    padding: 1em 4em 1em 4em;
+}
+
+.remark-slide-number {
+  display: none;
+}

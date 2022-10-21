@@ -16,32 +16,24 @@ output:
       ratio: "16:9"
 ---
 class: inverse
-background-image: url(imgs/bg1.png)
+
+layout: true
+background-image: url(imgs/bg2.png)
 background-size: contain
+background-position: top
 
-<style type="text/css">
-.remark-slide-content {
-    font-size: 30px;
-    padding: 1em 4em 1em 4em;
-}
-</style>
-
+---
+background-image: url(imgs/bg1.png)
 <br><br><br><br><br><br><br>
 # Intro to rmarkdown
 
-<br><br>
+<br><br><br><br>
 
 NHS-R Conference 2021
 
 ---
-class: inverse
-background-image: url(imgs/bg2.png)
-background-size: contain
-
-# Title
-
----
-class: inverse, center
+class: center
+background-image: ""
 
 # WORKSHOP PLAN
 
@@ -53,13 +45,10 @@ knitr::include_graphics('imgs/workshop_plan.svg')
 
 ???
 
-This is a presenter note
+This is a presenter note.
+If the images are to big: background-position: top
 
 ---
-class: inverse
-background-image: url(imgs/bg2.png)
-background-size: contain
-
 # Expectations
 
 <br><br><br>
@@ -70,10 +59,6 @@ background-size: contain
 - What tools do you use for your reporting?
 
 ---
-class: inverse
-background-image: url(imgs/bg2.png)
-background-size: contain
-
 # What is rmarkdown?
 
 <br>
@@ -84,11 +69,9 @@ background-size: contain
 ]
 
 .pull-right[
-
 ```{r, label="logo", echo=FALSE, out.width="70%", fig.align="center"}
 knitr::include_graphics('imgs/rmarkdown_hex.png')
 ```
-
 ]
 
 ???
@@ -97,10 +80,6 @@ rmarkdown logo here
 https://rmarkdown.rstudio.com/docs/reference/figures/logo.png
 
 ---
-class: inverse
-background-image: url(imgs/bg2.png)
-background-size: contain
-
 # Why Is This Useful?
 
 <br><br><br>
@@ -109,48 +88,80 @@ background-size: contain
 - In our data world creating reproducible analyses is essential for continuity and accuracy.
 
 ---
-class: inverse
-
 # Examples
 
-.pull-left[
+<br>
 
+.pull-left[
 ```{r, label="ex1", echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics('imgs/example1_pa.png')
 ```
-
 ]
 
 .pull-right[
-
-```{r, label="ex2", echo=FALSE, out.width="100%", fig.align="center"}
+```{r, label="ex2", echo=FALSE, out.width="90%", fig.align="center"}
 knitr::include_graphics('imgs/example2_des.png')
 ```
-
 ]
 
-???
-
-Two images here
-
 ---
-class: inverse
-
 # Creating a Report
 
+<br><br><br>
+
+.pull-left[
+- Creating an rmarkdown (.rmd) file is easy!
+  - Click the Paper with the green plus in the top left corner.
+  - Generate the type of file you want and click OK.
+  - DONE!
+]
+--
+.pull-right[
+```{r, label="file1", echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics('imgs/file_create1.png')
+```
+]
+
+---
+# Creating a Report
+
+<br><br><br>
+
+.pull-left[
 - Creating an rmarkdown (.rmd) file is easy!
   - Click the Paper with the green plus in the top left corner
   - Generate the type of file you want and click OK
   - DONE!
+]
 
-???
-
-Three images here
+.pull-right[
+```{r, label="file2", echo=FALSE, out.width="85%", fig.align="center"}
+knitr::include_graphics('imgs/file_create2.png')
+```
+]
 
 ---
-class: inverse
+# Creating a Report
 
+<br><br><br>
+
+.pull-left[
+- Creating an rmarkdown (.rmd) file is easy!
+  - Click the Paper with the green plus in the top left corner
+  - Generate the type of file you want and click OK
+  - DONE!
+]
+
+.pull-right[
+```{r, label="file3", echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics('imgs/file_create3.png')
+```
+]
+
+---
 # How does it work?
+
+<br><br><br>
 
 - rmarkdown uses markdown language to generate its reports. It also supports a variety of other languages for data generation, manipulation, and visualisation.
 - rmarkdown essentially works in three main parts which we’ll look at shortly:
@@ -159,99 +170,112 @@ class: inverse
   - Code area – “Chunks” where code goes that will run when the report is run.
 
 ---
-class: inverse
-
 # YAML – Yet Another Markdown Language
 
-.pull-left[
+<br><br><br>
 
+.pull-left[
 - The YAML is used to format the report as well as specify what type of output will be created.
   - Options include HTML, PDF, Word, Powerpoint, and more...
-
 ]
 
 .pull-right[
-
 ```{r, label="parms", echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics('imgs/params_file1.png')
 ```
-
 ]
 
-???
-
-One image here
-
 ---
-class: inverse
-
 # Markdown Area
+
+<br><br><br>
 
 - The Markdown Area is used to format within the report itself.
   - Examples include: Headers, Tabs, Bolds, Italics, Lists, Numbered Lists, and more...
 
 
-???
-
-One image here
+```{r, label="markdown", echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics('imgs/markdown.png')
+```
 
 ---
-class: inverse
-
 # Code Area
 
+<br><br><br>
+
+.pull-left[
 - The Coding Area is used as a space to develop code for the rmarkdown report.
-- The majority of times the final output of these code chunks will be some type of visualization (graph, table, etc.)
+- The majority of times the final output of these code chunks will be some type of visualization (graph, table, etc.).
+]
 
-???
-
-One image here
+.pull-right[
+```{r, label="chunk", echo=FALSE, out.width="50%", fig.align="center"}
+knitr::include_graphics('imgs/chunk.png')
+```
+]
 
 ---
-class: inverse
+background-image: url(imgs/bg1.png)
+
+<br><br><br><br><br><br><br>
 
 # SHOWCASE
 
-## Let’s See Your Efforts!
+<br><br><br><br>
+
+Let’s See Your Efforts!
 
 ---
-class: inverse
-
 # Parameterized rmarkdown
 
-- Parameterized reports allow you to create multiple reports with different inputs (like working with functions)
-  - The input parameter will take the location of every named parameter space
+<br><br><br>
 
+.pull-left[
+- Parameterized reports allow you to create multiple reports with different inputs (like working with functions).
+  - The input parameter will take the location of every named parameter space.
+]
 
-???
-
-Two images here
+.pull-right[
+```{r, label="params_file1", echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics('imgs/params_file1.png')
+```
+]
 
 ---
-class: inverse
+# Parameterized rmarkdown
 
+<br><br><br>
+
+.pull-left[
+- Parameterized reports allow you to create multiple reports with different inputs (like working with functions).
+  - The input parameter will take the location of every named parameter space.
+]
+
+.pull-right[
+```{r, label="params_file2", echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics('imgs/params_file2.png')
+```
+]
+---
 # Functions for rmarkdown Automation
+
+<br><br><br>
 
 - Since rmarkdown itself is a package there are some functions that can be used to generate reports on the fly.
 
 ---
-class: inverse
-
 # Demo
+
+<br><br><br>
 
 - There are a multitude of packages that can work in conjunction with rmarkdown, therefore allowing an analyst to create dynamic or interactive reports, giving a more dashboard feel.
 
 ---
-class: inverse
-
 # Acknowledgements
+
+<br><br><br>
 
 - NHS-R Community
 - Chris Beeley
 - Zoe Turner
 - Mohammed Mohammed
-
----
-class: inverse, center, middle
-
-# Get Started
