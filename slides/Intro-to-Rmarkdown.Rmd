@@ -170,7 +170,7 @@ knitr::include_graphics('imgs/file_create3.png')
   - Code area – “Chunks” where code goes that will run when the report is run.
 
 ---
-# YAML – Yet Another Markdown Language
+# YAML – Yet Another Markup Language
 
 <br><br><br>
 
