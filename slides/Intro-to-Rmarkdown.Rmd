@@ -129,8 +129,8 @@ knitr::include_graphics('imgs/file_create1.png')
 
 .pull-left[
 - Creating an rmarkdown (.rmd) file is easy!
-  - Click the Paper with the green plus in the top left corner
-  - Generate the type of file you want and click OK
+  - Click the Paper with the green plus in the top left corner.
+  - Generate the type of file you want and click OK.
   - DONE!
 ]
 
@@ -147,8 +147,8 @@ knitr::include_graphics('imgs/file_create2.png')
 
 .pull-left[
 - Creating an rmarkdown (.rmd) file is easy!
-  - Click the Paper with the green plus in the top left corner
-  - Generate the type of file you want and click OK
+  - Click the Paper with the green plus in the top left corner.
+  - Generate the type of file you want and click OK.
   - DONE!
 ]
 
